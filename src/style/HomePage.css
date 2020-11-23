@@ -3,6 +3,19 @@
     src: url('../Fonts/Abel-Regular.ttf'); 
 }
 
+.home-head-wrapper {
+    max-width: 100%;
+}
+
+.home-head-wrapper div {
+    display: flex;
+    justify-content: space-between;
+}
+
+div div {
+    padding-right: 10px;
+}
+
 .welcome {
     font-family: Abel;
     font-weight: 400;
