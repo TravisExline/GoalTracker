@@ -4,7 +4,7 @@ import '../style/Login.css'
 class Login extends React.Component {
     render() {
         return(
-            <section>
+            <div className='wrapper'>
                 <div>
                     <h1>Login Here</h1>
                     <form>
@@ -13,7 +13,7 @@ class Login extends React.Component {
                         <input type='submit' value='Login'/>
                     </form>
                 </div>
-            </section>
+            </div>
         )
     }
 }
