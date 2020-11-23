@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Abel;
+    src: url('../Fonts/Abel-Regular.ttf'); 
+}
+
+.welcome {
+    font-family: Abel;
+    font-weight: 400;
+    font-size: 47px;
+    margin: 10px 0 0 30px;
+}

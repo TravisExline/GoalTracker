@@ -6,7 +6,7 @@ class Login extends React.Component {
         return(
             <div className='wrapper'>
                 <div>
-                    <h1>Login Here</h1>
+                    <h1 className='login-head'>Login Here</h1>
                     <form>
                         <input type='text' placeholder='Username'></input>
                         <input type='password' placeholder='Password'></input>
